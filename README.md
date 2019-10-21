@@ -66,7 +66,7 @@ FOR EACH ROW EXECUTE PROCEDURE notify_trigger(
 );
 ```
 
-You can see the notify event happening on this line: ``
+You can see the notify event happening on this line: `PERFORM pg_notify('db_notifications', payload);`
 
 Then in the [server](server/index.js), you can see the `LISTEN` command and the `.on('notification', ...)` event:
 
