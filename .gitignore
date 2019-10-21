@@ -1,0 +1,7 @@
+*.swp
+
+server/node_modules
+pubsub/node_modules
+
+docker/volumes
+!docker/volumes/.gitkeep
