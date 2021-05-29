@@ -12,6 +12,6 @@
   "dependencies": {
     "pg": "^7.12.1",
     "postgres-migrations": "^3.0.2",
-    "ws": "^7.2.0"
+    "ws": "^7.4.6"
   }
 }
